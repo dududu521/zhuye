@@ -1,0 +1,295 @@
+/*
+* @Author: DELL
+* @Date:   2018-04-11 09:32:02
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-20 20:33:32
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* 头部开始 */
+header{
+    width: 967px;
+    height: 649px;
+    margin: auto; 
+    background: url('../img/2.png');
+    /* position: absolute; */
+}
+.header_box{
+	width: 100%;
+	height: 72px;
+	background-color: rgba(50, 50, 50, 0.4);
+}
+.header_box_left{
+	width: 35%;
+	height: 100%;
+	font-size: 24px;
+	text-align: center;
+	line-height: 72px;
+	float: left;
+	color: #fff;
+}
+.hearder_box_right{
+	width: 65%;
+	height: 100%;
+	float: right;
+}
+.hearder_box_right p{
+	display: block;
+	width: 101px;
+	height: 100%;
+	text-align: center;
+	line-height: 72px;
+	font-size: 12px;
+	color: #fff;
+	float: left;
+}	
+button{
+	width: 83px;
+	height: 40px;
+	background: #11b563;
+    border: 0;
+    margin-top: 16px; 
+    font-size: 12px;
+    color: #fff;
+}
+.hearder_box_right p:first-child{
+	margin-left: 25px;
+}
+.header_box1{
+	width: 89%;
+	height: 577px;
+	margin: 0 auto; 
+}
+.header_box1_text{
+	width: 495px;
+	height: 100%;
+	overflow: hidden;
+	/* position: relative;
+	z-index: 999; */
+}
+.header_box1_text p{
+    width: 370px;
+    height: 52px;
+    color: #fff;
+    font-size: 36px;
+    margin-left: 36px;
+}
+.header_box1_text p:first-child{
+	margin-top: 150px;
+}
+.header_box1_text h1{
+	width: 423px;
+	text-align: left;
+	margin-left: 36px;
+	line-height: 34px;
+	color: #fff;
+	font-size: 20px;
+}
+/* 头部结束 */
+/* about me */
+.aboutme{
+	width: 967px;
+	height: 595px;
+	margin: auto;
+	box-sizing: border-box;
+	border-left: 1px solid #000; 
+	border-right: 1px solid #000;
+
+}
+.title1{
+	height: 100px;
+	margin: auto; 
+	font-size: 27px;
+	text-align: center;
+	padding-top: 73px;
+	box-sizing: border-box;
+}
+.aboutme_1{
+	width: 89%;
+	height: 495px;
+	margin: auto;
+}
+.aboutme_1_text{
+	width: 54%;
+	height: 300px;
+	float: left;
+	margin-top: 50px;
+	box-sizing: border-box; 
+}
+.aboutme_1_text h1{
+	width: 100%;
+	height: 100px;
+	font-size: 60px;
+	line-height: 100px;
+	color: #646eb4;
+}
+.aboutme_1_text h2{
+	height: 200px;
+	font-size: 15px;
+	color: #525252;
+	line-height: 40px;
+}
+.aboutme_1_tu{
+	width:320px;
+	height: 427px;
+	background: url('../img/3.png');
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+
+}
+/* about me结束 */
+/* skills开始 */
+.skills{
+	width: 967px;
+	height: 600px;
+	margin: auto;
+	box-sizing: border-box;
+	border-left: 1px solid #000; 
+	border-right: 1px solid #000;
+}
+.skills_title{
+	height: 100px;
+	margin: auto; 
+	font-size: 27px;
+	text-align: center;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+.skills1{
+	height: 500px;
+	display: flex;
+}
+.skills1_photo{
+	width: 51%;
+	height: 100%;
+}
+.skills1_text{
+	width: 49%;
+	height: 100%;
+}
+.skills1_photo li{
+	width: 40%;
+	height: 37%;
+    float: left;
+	margin-left: 27px;
+	margin-top: 27px;
+}
+.skills1_photo li:nth-child(2n-1){
+	margin-left: 35px;
+}
+.skills1_text ul{
+	height: 283px;
+	margin-top: 50px;
+}
+.skills1_text ul li{
+	width: 92%;
+	height: 30px;
+	background: #eeeeee;
+	margin-bottom: 33px;
+	border-radius: 15px;
+}
+/* .skills1_text ul li:last-child{
+	margin-bottom: 0;
+} */
+.skills1_text1{
+	height: 30px;
+	border-radius: 15px;
+	float: left;
+	overflow: hidden;
+}
+.skills1_text11{
+	width: 10%;
+	height: 30px;
+	float: right;
+	line-height: 30px;
+	text-align: center;
+	color: #8f8f8f;
+}
+.skills1_text2{
+	width: 110px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+.skills1_text_text{
+	width: 100%;
+	height: 120px;
+	margin-top: 10px;
+	color:#353535;
+	font-size: 10px;
+	line-height: 20px;
+}
+/* skills结束 */
+/* 项目开始 */
+.project{
+	width: 967px;
+	height: 890px;
+	margin: auto;
+	box-sizing: border-box;
+	border-left: 1px solid #000; 
+	border-right: 1px solid #000;
+}
+.project_title{
+	height: 100px;
+	margin: auto; 
+	font-size: 27px;
+	text-align: center;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+.project1{
+	width: 100%;
+	height: 790px;
+}
+.project1 li{
+	width: 309px;
+	height: 251px;
+    background: yellow;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+.project1 li:nth-child(3n-2){
+	margin-left: 5px;
+}
+.project1 li:nth-child(3n){
+	margin-right:0;
+}
+/* 项目结束 */
+/* bottom */
+.bottom{
+	width: 967px;
+	height: 70px;
+	background: #272727;
+	margin: auto; 
+}
+.bottom_left{
+	width: 25%;
+	height: 70px;
+	font-size: 18px;
+	text-align: center;
+    line-height: 70px;
+    color: #fff;
+    float: left;
+}
+.bottom_right{
+	width: 75%;
+	height: 70px;
+	font-size: 11px;
+	text-align: right;
+    line-height: 70px;
+    color: #fff;
+    float: right;
+}
+/* bottom结束 */
